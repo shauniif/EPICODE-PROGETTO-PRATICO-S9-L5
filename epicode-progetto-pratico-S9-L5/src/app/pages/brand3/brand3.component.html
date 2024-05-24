@@ -1,14 +1,14 @@
-<h2 class="text-center">Post che potrebbero piacerti:</h2>
-<div class="row row-cols-1 row-cols-md-3 row-cols-4">
+<h2 class="text-center">Le nostre auto Ford</h2>
+<div class="row row-cols-1 row-cols-md-3 justify-content-center my-3">
   <div class="col mt-3" *ngFor="let auto of FordArr">
     <div
-      class="card"
+      class="card d-flex flex-column h-100"
       [ngClass]="{
         'bg-success': auto.available,
         'bg-danger': !auto.available
       }"
     >
-      <img [src]="[auto.modelImage]" class="card-img" alt="" />
+      <img [src]="[auto.modelImage]" class="card-img w-100 h-50" alt="" />
       <div class="card-body">
         <h5 class="card-title">{{ auto.model }}</h5>
         <p class="card-text">{{ auto.year }}</p>

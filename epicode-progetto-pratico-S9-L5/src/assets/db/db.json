@@ -1,18 +1,18 @@
 [
     {
         "brand": "Fiat",
-        "brandLogo": "https://cdn.xsd.cz/resize/439f4c3c69293ee5a662d0397594a9f4_resize=600,600_.jpg?hash=ef0fe20bd904453eb42fc3733397d8a7",
+        "brandLogo": "https://cdn.worldvectorlogo.com/logos/fiat-3.svg",
         "model": "500L",
-        "modelImage": "https://picsum.photos/200/300?random=1",
+        "modelImage": "https://upload.wikimedia.org/wikipedia/commons/3/3b/2012_Geneva_Motor_Show_-_Fiat_500L.jpg",
         "year": 2015,
         "price": 7500,
         "available": false
     },
     {
         "brand": "Fiat",
-        "brandLogo": "https://cdn.xsd.cz/resize/439f4c3c69293ee5a662d0397594a9f4_resize=600,600_.jpg?hash=ef0fe20bd904453eb42fc3733397d8a7",
+        "brandLogo": "https://cdn.worldvectorlogo.com/logos/fiat-3.svg",
         "model": "500 Abarth",
-        "modelImage": "https://picsum.photos/200/300?random=2",
+        "modelImage": "https://upload.wikimedia.org/wikipedia/commons/b/b3/2009_Abarth_500_1.4_Front.jpg",
         "year": 2010,
         "price": 3500,
         "available": true
@@ -21,7 +21,7 @@
         "brand": "Ford",
         "brandLogo": "https://logos-world.net/wp-content/uploads/2021/05/Ford-Logo.png",
         "model": "Taurus",
-        "modelImage": "https://picsum.photos/200/300?random=3",
+        "modelImage": "https://images.ctfassets.net/uaddx06iwzdz/4sqP1ISUrsdnQKS8QBq2Rq/9e4b615918aabc4958fc7f3287cf92b3/ford-taurus-side.jpeg",
         "year": 2009,
         "price": 5200,
         "available": false
@@ -30,25 +30,25 @@
         "brand": "Ford",
         "brandLogo": "https://logos-world.net/wp-content/uploads/2021/05/Ford-Logo.png",
         "model": "Focus",
-        "modelImage": "https://picsum.photos/200/300?random=4",
+        "modelImage": "https://www.gpas-cache.ford.com/guid/3c3e2039-651c-396c-9d4a-9341fa79386b.png",
         "year": 2014,
         "price": 9700,
         "available": true
     },
     {
         "brand": "Audi",
-        "brandLogo": "https://uploads.audi-mediacenter.com/system/production/media/116125/images/74022a65b478f7b3a8e0bf8ba70994f66fde5dd7/A231415_web_960.jpg?1698528985",
+        "brandLogo": "https://logosmarcas.net/wp-content/uploads/2021/04/Audi-Logo-650x366.png",
         "model": "A3",
-        "modelImage": "https://picsum.photos/200/300?random=5",
+        "modelImage": "https://cdnwp.dealerk.com/eed49ed7/uploads/sites/668/2020/03/audi-a3-sportback-2020-3.jpg",
         "year": 2012,
         "price": 4300,
         "available": true
     },
     {
         "brand": "Audi",
-        "brandLogo": "https://uploads.audi-mediacenter.com/system/production/media/116125/images/74022a65b478f7b3a8e0bf8ba70994f66fde5dd7/A231415_web_960.jpg?1698528985",
+        "brandLogo": "https://logosmarcas.net/wp-content/uploads/2021/04/Audi-Logo-650x366.png",
         "model": "Q7",
-        "modelImage": "https://picsum.photos/200/300?random=6",
+        "modelImage": "https://cdn-img.automoto.it/images/35795999/3000x/a240551-large-jpg.jpeg",
         "year": 2020,
         "price": 41700,
         "available": false
