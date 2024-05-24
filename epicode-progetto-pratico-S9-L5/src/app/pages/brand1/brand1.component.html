@@ -1,20 +1,31 @@
-<h2 class="text-center">Le nostre auto Audi:</h2>
-<div class="row row-cols-1 row-cols-md-3">
-  <div class="col mt-3" *ngFor="let auto of AudiArr">
-    <div
-      class="card d-flex flex-column h-100"
-      [ngClass]="{
-        'bg-success': auto.available,
-        'bg-danger': !auto.available
-      }"
-    >
-      <img [src]="[auto.modelImage]" class="card-img w-100 h-50" alt="" />
-      <div class="card-body">
-        <h5 class="card-title">{{ auto.model }}</h5>
-        <p class="card-text">{{ auto.year }}</p>
-        <p class="card-text">{{ auto.price }}€</p>
-        <p>Pronta consegna: {{ auto.available ? "Sì" : "No" }}</p>
-        <a class="btn btn-primary">Torna in home</a>
+<div class="my-5">
+  <h2 class="text-center">Le nostre auto Audi:</h2>
+  <div class="row row-cols-1 row-cols-md-3 justify-content-center">
+    <div class="col mt-3" *ngFor="let auto of AudiArr">
+      <div
+        class="card d-flex flex-column h-100"
+        [ngClass]="{
+          'bg-success': auto.available,
+          'bg-danger': !auto.available
+        }"
+      >
+        <img [src]="[auto.modelImage]" class="card-img w-100 h-50" alt="" />
+        <div class="card-body">
+          <h5 class="card-title h3 text-light">
+            Modello <span class="fw-bold">{{ auto.model }}</span>
+          </h5>
+          <p class="card-text">
+            Uscita: <span class="fw-bold">{{ auto.year }}</span>
+          </p>
+          <p class="card-text">
+            Prezzo: <span class="fw-bold">{{ auto.price }}€</span>
+          </p>
+          <p>
+            Pronta consegna:
+            <span class="fw-bold"> {{ auto.available ? "Sì" : "No" }}</span>
+          </p>
+          <a class="btn btn-primary">Torna in home</a>
+        </div>
       </div>
     </div>
   </div>

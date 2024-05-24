@@ -1,6 +1,6 @@
 <h2 class="text-center">I nostri marchi:</h2>
 <div
-  class="row row-cols-1 row-cols-md-3 justify-content-center bg-info bg-opacity-50"
+  class="row row-cols-1 row-cols-md-3 justify-content-center bg-info bg-opacity-50 border border-1 border-black"
 >
   <div
     class="col my-2 d-flex justify-content-center"
@@ -10,8 +10,7 @@
   </div>
 </div>
 
-<h2>Buh</h2>
-<h2 class="text-center">Post che potrebbero piacerti:</h2>
+<h2 class="text-center mt-3">Le nostre migliori auto:</h2>
 <div class="row row-cols-1 row-cols-md-3 justify-content-center">
   <div class="col mt-3" *ngFor="let auto of AutoarrRandom">
     <div
@@ -23,13 +22,20 @@
     >
       <img [src]="[auto.modelImage]" class="card-img w-100 h-50" alt="" />
       <div class="card-body">
-        <h5 class="card-title">{{ auto.model }}</h5>
-        <p class="card-text">{{ auto.year }}</p>
-        <p class="card-text">{{ auto.price }}€</p>
-        <p>Pronta consegna: {{ auto.available ? "Sì" : "No" }}</p>
-        <a
-          class="btn btn-primary"
-          [routerLink]="['/' + auto.brand.toLowerCase()]"
+        <h5 class="card-title h3 text-light">
+          Modello <span class="fw-bold">{{ auto.model }}</span>
+        </h5>
+        <p class="card-text">
+          Uscita: <span class="fw-bold">{{ auto.year }}</span>
+        </p>
+        <p class="card-text">
+          Prezzo: <span class="fw-bold">{{ auto.price }}€</span>
+        </p>
+        <p>
+          Pronta consegna:
+          <span class="fw-bold"> {{ auto.available ? "Sì" : "No" }}</span>
+        </p>
+        <a class="btn btn-info" [routerLink]="['/' + auto.brand.toLowerCase()]"
           >Informazioni su tutte le auto {{ auto.brand }}</a
         >
       </div>
