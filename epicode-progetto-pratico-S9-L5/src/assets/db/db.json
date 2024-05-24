@@ -1,7 +1,7 @@
 [
     {
         "brand": "Fiat",
-        "brandLogo": "https://picsum.photos/100/100?random=7",
+        "brandLogo": "https://cdn.xsd.cz/resize/439f4c3c69293ee5a662d0397594a9f4_resize=600,600_.jpg?hash=ef0fe20bd904453eb42fc3733397d8a7",
         "model": "500L",
         "modelImage": "https://picsum.photos/200/300?random=1",
         "year": 2015,
@@ -10,7 +10,7 @@
     },
     {
         "brand": "Fiat",
-        "brandLogo": "https://picsum.photos/100/100?random=7",
+        "brandLogo": "https://cdn.xsd.cz/resize/439f4c3c69293ee5a662d0397594a9f4_resize=600,600_.jpg?hash=ef0fe20bd904453eb42fc3733397d8a7",
         "model": "500 Abarth",
         "modelImage": "https://picsum.photos/200/300?random=2",
         "year": 2010,
@@ -19,7 +19,7 @@
     },
     {
         "brand": "Ford",
-        "brandLogo": "https://picsum.photos/100/100?random=8",
+        "brandLogo": "https://logos-world.net/wp-content/uploads/2021/05/Ford-Logo.png",
         "model": "Taurus",
         "modelImage": "https://picsum.photos/200/300?random=3",
         "year": 2009,
@@ -28,7 +28,7 @@
     },
     {
         "brand": "Ford",
-        "brandLogo": "https://picsum.photos/100/100?random=8",
+        "brandLogo": "https://logos-world.net/wp-content/uploads/2021/05/Ford-Logo.png",
         "model": "Focus",
         "modelImage": "https://picsum.photos/200/300?random=4",
         "year": 2014,
@@ -37,7 +37,7 @@
     },
     {
         "brand": "Audi",
-        "brandLogo": "https://picsum.photos/100/100?random=9",
+        "brandLogo": "https://uploads.audi-mediacenter.com/system/production/media/116125/images/74022a65b478f7b3a8e0bf8ba70994f66fde5dd7/A231415_web_960.jpg?1698528985",
         "model": "A3",
         "modelImage": "https://picsum.photos/200/300?random=5",
         "year": 2012,
@@ -46,7 +46,7 @@
     },
     {
         "brand": "Audi",
-        "brandLogo": "https://picsum.photos/100/100?random=9",
+        "brandLogo": "https://uploads.audi-mediacenter.com/system/production/media/116125/images/74022a65b478f7b3a8e0bf8ba70994f66fde5dd7/A231415_web_960.jpg?1698528985",
         "model": "Q7",
         "modelImage": "https://picsum.photos/200/300?random=6",
         "year": 2020,

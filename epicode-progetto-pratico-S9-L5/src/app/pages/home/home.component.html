@@ -1,6 +1,6 @@
 <h2 class="text-center">I nostri marchi:</h2>
 <div class="row row-cols-1 row-cols-md-3 row-cols-4">
-  <div class="col mt-3" *ngFor="let auto of Autoarrlogo">
+  <div class="col mt-3" *ngFor="let auto of Autoarrlogo.sort()">
     <div class="card">
       <img [src]="[auto]" class="card-img" alt="" />
     </div>
@@ -24,7 +24,9 @@
         <p class="card-text">{{ auto.year }}</p>
         <p class="card-text">{{ auto.price }}€</p>
         <p>Pronta consegna: {{ auto.available ? "Sì" : "No" }}</p>
-        <a class="btn btn-primary"
+        <a
+          class="btn btn-primary"
+          [routerLink]="['/' + auto.brand.toLowerCase()]"
           >Informazioni su tutte le auto {{ auto.brand }}</a
         >
       </div>

@@ -8,6 +8,7 @@ import { iAuto } from '../../modules/auto';
   styleUrl: './home.component.scss'
 })
 export class HomeComponent {
+
   Autoarrlogo:string[] =[];
   AutoarrRandom:iAuto[] =[];
 
@@ -19,7 +20,12 @@ export class HomeComponent {
     this.autosSvc.getAuto().then(() => {
       this.Autoarrlogo = this.autosSvc.getBrandlogo();
       this.AutoarrRandom = this.autosSvc.getRandomAuto();
+
       return this.Autoarrlogo, this.AutoarrRandom;
+
+
     })
   }
 }
+
+
