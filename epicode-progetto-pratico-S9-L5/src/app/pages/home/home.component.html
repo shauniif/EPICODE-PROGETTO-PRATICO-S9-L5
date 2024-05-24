@@ -11,7 +11,7 @@
 </div>
 
 <h2 class="text-center mt-3">Le nostre migliori auto:</h2>
-<div class="row row-cols-1 row-cols-md-3 justify-content-center">
+<div class="row row-cols-1 row-cols-md-3 justify-content-center mb-3">
   <div class="col mt-3" *ngFor="let auto of AutoarrRandom">
     <div
       class="card d-flex flex-column h-100"
@@ -35,7 +35,9 @@
           Pronta consegna:
           <span class="fw-bold"> {{ auto.available ? "Sì" : "No" }}</span>
         </p>
-        <a class="btn btn-info" [routerLink]="['/' + auto.brand.toLowerCase()]"
+        <a
+          class="btn btn-info text-light"
+          [routerLink]="['/' + auto.brand.toLowerCase()]"
           >Informazioni su tutte le auto {{ auto.brand }}</a
         >
       </div>

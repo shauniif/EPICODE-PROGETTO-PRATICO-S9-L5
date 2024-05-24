@@ -1,7 +1,12 @@
 <div class="my-5">
   <h2 class="text-center">Le nostre auto Fiat</h2>
-  <div class="row row-cols-1 row-cols-md-3 justify-content-center">
-    <div class="col mt-3" *ngFor="let auto of FiatArr">
+  <div
+    class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center"
+  >
+    <div
+      class="col-12 col-sm-7 col-md-5 col-lg-6 mt-3"
+      *ngFor="let auto of FiatArr"
+    >
       <div
         class="card d-flex flex-column h-100"
         [ngClass]="{
@@ -24,7 +29,9 @@
             Pronta consegna:
             <span class="fw-bold"> {{ auto.available ? "Sì" : "No" }}</span>
           </p>
-          <a class="btn btn-primary">Torna in home</a>
+          <a class="btn btn-info text-light" [routerLink]="['/home']"
+            >Torna ad home</a
+          >
         </div>
       </div>
     </div>
