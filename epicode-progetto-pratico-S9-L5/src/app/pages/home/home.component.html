@@ -35,11 +35,13 @@
           Pronta consegna:
           <span class="fw-bold"> {{ auto.available ? "Sì" : "No" }}</span>
         </p>
+
         <a
           class="btn btn-info text-light"
           [routerLink]="['/' + auto.brand.toLowerCase()]"
           >Informazioni su tutte le auto {{ auto.brand }}</a
         >
+        <!--Resa dinamica del path, in questo modo in base all'auto che uscirà randomicamente, al click del della a porterà nelle pagina-->
       </div>
     </div>
   </div>

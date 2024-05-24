@@ -23,25 +23,26 @@ export class AutofetchService {
     console.log("Errore di caricamento delle auto",error);
     }
   }
-  getAll(){
-    return this.AutoArr;
-  }
+
   getBrandlogo(){
-    let ArrFiltredLogo = [...new Set(this.AutoArr.map(auto => auto.brandLogo))];
+    let ArrFiltredLogo = [...new Set(this.AutoArr.map(auto => auto.brandLogo))]; // Utilizzo di Set perché in questo modo faccio un array senza duplicati poiché i 3 brand sì ripetono 3 volte
     return  ArrFiltredLogo
   }
   getRandomAuto(): iAuto[] {
-  const shuffled = [...this.AutoArr].sort(() => 0.5 - Math.random()); //clono array e lo mescolo
-  return shuffled.slice(0, 2); //seleziono i primi 2 e li ritorno
+  const shuffled = [...this.AutoArr].sort(() => 0.5 - Math.random());    // Creo una copia  dell'array AutoArr e lo mescolo
+  return shuffled.slice(0, 2);
 }
   getAudiAuto(){
     return this.AutoArr.filter(auto => auto.brand === 'Audi');
+    // array filtrato in base al parametro
   }
   getFiatAuto(){
     return this.AutoArr.filter(auto => auto.brand === 'Fiat');
+    // array filtrato in base al parametro
   }
   getFordAuto(){
     return this.AutoArr.filter(auto => auto.brand === 'Ford');
+    // array filtrato in base al parametro
   }
 }
 
